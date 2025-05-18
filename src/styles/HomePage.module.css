@@ -1,0 +1,131 @@
+.itemLink {
+  display: contents;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
+  padding: 7rem;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  min-height: 500px;
+}
+
+.header {
+  background-color: rgb(70, 164, 155);
+  margin-bottom: 1rem;
+}
+
+.header h2 {
+  color: white;
+  text-align: center;
+  margin: 15px 0 15px 0;
+  font-weight: 300;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.controls input,
+.controls select {
+  padding: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.sortby {
+  display: flex;
+  align-items: center;
+}
+
+.logoutButtonContainer {
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0 0.75rem 0 0.75rem;
+  margin: 0;
+  overflow-y: auto;
+  flex-grow: 1;
+  max-height: 600px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 4px 1.2fr 1.5fr 1fr;
+  column-gap: 0.5rem;
+  align-items: center;
+  padding: 0.75rem 0.1rem;
+  border-bottom: 1px solid #eee;
+}
+
+
+.item:hover {
+  background: #f9f9f9;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.contractor {
+  font-size: 1rem;
+  color: #333;
+}
+
+.amount {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  text-align: right;
+}
+
+.status {
+  width: 100%; 
+  align-self: stretch;
+  margin-right: 0.1rem;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.noTransactions {
+  padding: 2rem;
+  text-align: center;
+  color: #555;
+  font-size: 1.1rem;
+}

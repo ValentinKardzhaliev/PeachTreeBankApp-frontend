@@ -1,0 +1,9 @@
+:root {
+  box-sizing: border-box;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+body {
+  background: url('/background.jpg') center/cover no-repeat;
+}
+
